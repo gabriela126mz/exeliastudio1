@@ -49,7 +49,7 @@ export default function HomePage() {
             )
           }
         >
-          Hola Quiero que mi marca crezca
+          Quiero que mi marca crezca
         </button>
       </header>
 

@@ -1,4 +1,3 @@
-/* styles/Services.module.css  – ya sin :root */
 
 .servicesSection {
   padding: 4rem 2rem;
@@ -64,12 +63,12 @@
 .servicePrice {
   font-size: 1.15rem;
   font-weight: bold;
-  color: var(--azul-oscuro);   /* usa la variable que ya tienes en globals.css */
+  color: var(--azul-oscuro);  
   margin-bottom: 1.5rem;
 }
 
 .serviceButton {
-  background-color: var(--celeste);  /* variable global */
+  background-color: var(--celeste); 
   color: #0a1f44;
   padding: 0.75rem 1.5rem;
   border: none;

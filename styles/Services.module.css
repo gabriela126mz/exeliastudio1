@@ -1,0 +1,103 @@
+/* styles/Services.module.css  – ya sin :root */
+
+.servicesSection {
+  padding: 4rem 2rem;
+  background-color: #fdfdfd;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.servicesTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a3a6d;
+  margin-bottom: 2rem;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.serviceCard {
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(10, 31, 68, 0.05);
+  transition: all 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: scale(1.07) rotateZ(0.5deg);
+  box-shadow: 0 22px 55px rgba(10, 31, 68, 0.3);
+}
+
+.serviceTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0a1f44;
+}
+
+.serviceIncludes {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  text-align: left;
+  color: #444;
+}
+
+.serviceIncludes li {
+  margin-bottom: 0.5rem;
+}
+
+.servicePrice {
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: var(--azul-oscuro);   /* usa la variable que ya tienes en globals.css */
+  margin-bottom: 1.5rem;
+}
+
+.serviceButton {
+  background-color: var(--celeste);  /* variable global */
+  color: #0a1f44;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.serviceButton:hover {
+  background-color: #74b9ff;
+  color: #ffffff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .servicesTitle {
+    font-size: 2rem;
+  }
+
+  .serviceTitle {
+    font-size: 1.4rem;
+  }
+
+  .serviceButton {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

@@ -1,6 +1,6 @@
-// pages/services.jsx
+
 import Head from 'next/head';
-import styles from '../styles/Services.module.css';
+import styles from '../styles/services.module.css';
 
 
 export default function Services() {

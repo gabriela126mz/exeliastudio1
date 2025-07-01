@@ -1,16 +1,22 @@
 
 import Head from 'next/head'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
     <>
-    <Head>
-      <title>Exelia Studio - Ayudamos a que tu marca crezca</title>
-      <meta name="description" content="Creamos campañas de alto impacto visual y estrategias de crecimiento digital para marcas únicas." />
-    </Head>
+      <Head>
+        <title>Exelia Studio | Creatividad con propósito</title>
+        <meta name="description" content="Agencia boutique digital que convierte ideas en marcas con impacto. Creatividad, estrategia y diseño." />
+        <meta name="keywords" content="Exelia, agencia creativa, diseño web, branding, marketing digital, publicidad, SEO, SEM,Ventas" />
+        <meta name="author" content="Exelia Studio" />
 
+        {/* Redes sociales */}
+        <meta property="og:title" content="Exelia Studio | Creatividad con propósito" />
+        <meta property="og:description" content="Tu idea, nuestra estrategia. Hacemos crecer tu marca con propósito." />
+        <meta property="og:image" content="/logofinal.png" />
+        <meta property="og:url" content="https://www.exeliastudio.com" />
+        <meta property="og:type" content="website" />
+      </Head>
 
      <div className="landing-page">
       <section className="carousel full-width-section">

@@ -4,12 +4,16 @@ import styles from '../styles/contact.module.css';
 export default function Contact() {
   return (
     <>
-      <Head>
+       <Head>
         <title>Contacto | Exelia Studio</title>
-        <meta
-          name="description"
-          content="¿Tienes dudas o quieres más información? Ponte en contacto con el equipo de Exelia Studio: estaremos encantados de ayudarte."
-        />
+        <meta name="description" content="¿Quieres impulsar tu proyecto? Contáctanos para una propuesta personalizada." />
+        <meta name="keywords" content="contacto, hablar con exelia, whatsapp, propuesta digital" />
+
+        <meta property="og:title" content="Contacto | Exelia Studio" />
+        <meta property="og:description" content="Hablemos sobre tu idea. Agenda una llamada con Exelia Studio gratuita." />
+        <meta property="og:image" content="/logofinal.png" />
+        <meta property="og:url" content="https://www.exeliastudio.com/contact" />
+        <meta property="og:type" content="website" />
       </Head>
 
       <div className={styles.contactContainer}>

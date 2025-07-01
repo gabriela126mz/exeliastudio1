@@ -4,6 +4,19 @@ import styles from '../styles/services.module.css';
 
 
 export default function Services() {
+
+    <Head>
+        <title>Servicios | Exelia Studio</title>
+        <meta name="description" content="Ofrecemos branding, diseño web, campañas publicitarias y crecimiento digital para emprendedores." />
+        <meta name="keywords" content="servicios, marketing, campañas, diseño, Exelia studio, WEB" />
+
+        <meta property="og:title" content="Servicios | Exelia Studio" />
+        <meta property="og:description" content="Descubre cómo podemos ayudarte a hacer crecer tu marca con servicios digitales estratégicos." />
+        <meta property="og:image" content="/logofinal.png" />
+        <meta property="og:url" content="https://www.exeliastudio.com/services" />
+        <meta property="og:type" content="website" />
+      </Head>
+
   const services = [
     {
       title: "Webs y Automatización",

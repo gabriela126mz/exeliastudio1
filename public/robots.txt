@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.exeliastudio.com
+
+# Sitemaps
+Sitemap: https://www.exeliastudio.com/sitemap.xml

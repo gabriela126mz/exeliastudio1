@@ -4,11 +4,19 @@ import Head from 'next/head'
 export default function HomePage() {
   return (
     <>
+
       <Head>
-        <title>Exelia Studio | Creatividad con propósito</title>
-        <meta name="description" content="Agencia boutique digital que convierte ideas en marcas con impacto. Creatividad, estrategia y diseño." />
-        <meta name="keywords" content="Exelia, agencia creativa, diseño web, branding, marketing digital, publicidad, SEO, SEM,Ventas" />
-        <meta name="author" content="Exelia Studio" />
+        <title>Exelia Studio | Agencia Boutique Digital</title>
+        <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.exeliastudio.com/" />
+        <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
+        <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta property="og:url" content="https://www.exeliastudio.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
+        <link rel="icon" href="/logofinal.png" />
+      </Head>
 
         {/* Redes sociales */}
         <meta property="og:title" content="Exelia Studio | Creatividad con propósito" />

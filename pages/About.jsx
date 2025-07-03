@@ -3,16 +3,17 @@ import styles from '../styles/about.module.css';
 export default function About() {
   return (
     <>
-     <Head>
-        <title>Sobre nosotros | Exelia Studio</title>
-        <meta name="description" content="Somos un estudio creativo comprometido con marcas auténticas y crecimiento con propósito." />
-        <meta name="keywords" content="sobre nosotros, Exelia, equipo creativo, misión, visión" />
-
-        <meta property="og:title" content="Sobre nosotros | Exelia Studio" />
-        <meta property="og:description" content="Conoce al equipo de Exelia Studio, nuestra misión y cómo trabajamos." />
-        <meta property="og:image" content="/logofinal.png" />
-        <meta property="og:url" content="https://www.exeliastudio.com/about" />
+      <Head>   
+        <title>Exelia Studio | Agencia Boutique Digital</title>
+        <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.exeliastudio.com/" />
+        <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
+        <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta property="og:url" content="https://www.exeliastudio.com/" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
+        <link rel="icon" href="/logofinal.png" />
       </Head>
 
       <div className={styles.aboutContainer}>

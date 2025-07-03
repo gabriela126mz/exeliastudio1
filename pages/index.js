@@ -16,8 +16,7 @@ export default function HomePage() {
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
         <link rel="icon" href="/logofinal.png" />
-      </Head>
-
+   
         {/* Redes sociales */}
         <meta property="og:title" content="Exelia Studio | Creatividad con propósito" />
         <meta property="og:description" content="Tu idea, nuestra estrategia. Hacemos crecer tu marca con propósito." />
@@ -25,6 +24,7 @@ export default function HomePage() {
         <meta property="og:url" content="https://www.exeliastudio.com" />
         <meta property="og:type" content="website" />
       </Head>
+
 
      <div className="landing-page">
       <section className="carousel full-width-section">
@@ -63,7 +63,7 @@ export default function HomePage() {
             )
           }
         >
-          Quiero que mi marca crezca
+          ¡Quiero que mi marca crezca!
         </button>
       </header>
 

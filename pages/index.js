@@ -30,6 +30,9 @@ export default function HomePage() {
               "name": "Exelia Studio",
               "url": "https://www.exeliastudio.com",
               "logo": "https://www.exeliastudio.com/logofinal.png",
+              sameAs: [
+                "https://www.instagram.com/tupartner.digital",
+              ]
             }),
           }}
         />

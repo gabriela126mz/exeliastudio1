@@ -113,7 +113,7 @@ export default function HomePage() {
       </section>
 
       <a
-        href="https://wa.me/610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
+        href="https://wa.me/34610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"

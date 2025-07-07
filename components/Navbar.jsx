@@ -19,9 +19,9 @@ export default function Navbar() {
       <div className={styles.menuWrapper}>
         <div className={styles.navLinks}>
            <Link href="/">Inicio</Link>
-          <Link href="/services">Servicios</Link> 
-          <Link href="/about">Sobre nosotros</Link>
-          <Link href="/contact">Contacto</Link>
+          <Link href="/Services">Servicios</Link> 
+          <Link href="/About">Sobre nosotros</Link>
+          <Link href="/Contact">Contacto</Link>
         </div>
       </div>
     </div>

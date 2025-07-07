@@ -29,7 +29,7 @@ export default function Services() {
         "Dominio y hosting",
       ],
       price: "600€",
-      message: "Hola Exelia, estoy interesado/a en el servicio de Publicidad. ¿Podrías contarme más?"
+      message: "Hola Exelia, estoy interesado/a en el servicio de Webs y Automatización. ¿Podrías contarme más?"
     },
     {
       title: "Creación de videos y anuncios",
@@ -39,7 +39,7 @@ export default function Services() {
         "Diseño de anuncios publicitarios",
       ],
       price: "250€",
-      message: "Hola Exelia, quiero más información sobre el servicio de Webs y Automatización."
+      message: "Hola Exelia, quiero más información sobre el servicio de Creación de videos y anuncios."
     },
     {
       title: "Contenido Profesional",
@@ -69,7 +69,6 @@ export default function Services() {
         "Diagnóstico comercial inicial",
         "Capacitación en técnicas de venta dinámica",
         "Revisión y mejora de procesos",
-        "Diagnóstico comercial inicial",
         "Soporte por WhatsApp",
       ],
       price: "350€",

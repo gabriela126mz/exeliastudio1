@@ -1,10 +1,22 @@
-// next-sitemap.config.js
+/** @type {import('next').NextConfig} */
 module.exports = {
-  siteUrl: 'https://www.exeliastudio.com',
-  generateRobotsTxt: true,
-  exclude: [
-    '/landingpage',   //  ← ruta vieja que da 404
-    '/contact',  
-    '/Services', //  ← añade todas las que quieras ocultar
-  ],
+  async redirects() {
+    return [
+      {
+        source: '/landingpage',
+        destination: '/',      
+        permanent: true,       
+      },
+       {
+        source: '/contact',
+        destination: '/',      
+        permanent: true,       
+      },
+       {
+        source: '/Services',
+        destination: '/',      
+        permanent: true,       
+      },
+    ];
+  },
 };

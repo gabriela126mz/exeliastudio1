@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import MetaTags from "../components/MetaTags";
+import MetaTags from "@/components/MetaTags";
 
 export default function HomePage() {
   return (

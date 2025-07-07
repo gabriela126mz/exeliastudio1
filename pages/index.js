@@ -1,9 +1,11 @@
 
 import Head from 'next/head'
+import MetaTags from "../components/MetaTags";
 
 export default function HomePage() {
   return (
     <>
+      <MetaTags />
       <Head>
         <title>Exelia Studio | Agencia Boutique Digital</title>
         <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />

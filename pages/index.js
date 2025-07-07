@@ -15,8 +15,7 @@ export default function HomePage() {
         <meta property="og:url" content="https://www.exeliastudio.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
-        <link rel="icon" href="/logofinal.png" />
-   
+        <link rel="icon" href="/favicon.ico" />
         {/* Redes sociales */}
         <meta property="og:title" content="Exelia Studio | Creatividad con propósito" />
         <meta property="og:description" content="Tu idea, nuestra estrategia. Hacemos crecer tu marca con propósito." />

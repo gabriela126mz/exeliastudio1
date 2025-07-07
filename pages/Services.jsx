@@ -8,8 +8,8 @@ export default function Services() {
       <Head>
         <title>Exelia Studio | Agencia Boutique Digital</title>
         <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
-        <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://www.exeliastudio.com/" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.exeliastudio.com/Services" />
         <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
         <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
         <meta property="og:url" content="https://www.exeliastudio.com/" />

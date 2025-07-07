@@ -4,7 +4,6 @@ import Head from 'next/head'
 export default function HomePage() {
   return (
     <>
-
       <Head>
         <title>Exelia Studio | Agencia Boutique Digital</title>
         <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
@@ -22,6 +21,19 @@ export default function HomePage() {
         <meta property="og:image" content="/logofinal.png" />
         <meta property="og:url" content="https://www.exeliastudio.com" />
         <meta property="og:type" content="website" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Exelia Studio",
+              "url": "https://www.exeliastudio.com",
+              "logo": "https://www.exeliastudio.com/logofinal.png",
+            }),
+          }}
+        />
+
       </Head>
 
 

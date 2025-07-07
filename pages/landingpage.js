@@ -1,4 +1,3 @@
-// pages/landingpage.js
 export async function getServerSideProps({ res }) {
   res.statusCode = 410;     
   return { props: {} };

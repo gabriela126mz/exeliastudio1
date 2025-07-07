@@ -1,7 +1,6 @@
 
 import Head from 'next/head'
 import MetaTags from "@/components/MetaTags";
-
 export default function HomePage() {
   return (
     <>
@@ -12,7 +11,7 @@ export default function HomePage() {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.exeliastudio.com/" />
         <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
-        <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta property="og:description" content="Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia boutique desde Madrid para el mundo." />
         <meta property="og:url" content="https://www.exeliastudio.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />

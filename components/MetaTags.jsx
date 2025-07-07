@@ -4,7 +4,7 @@ export default function MetaTags({
   title = "Exelia Studio | Agencia de Marketing Digital",
   description = "Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia boutique desde Madrid para el mundo.",
   url = "https://www.exeliastudio.com/",
-  image = "https://www.exeliastudio.com/logoshare.png",
+  image = "https://www.exeliastudio.com/logofinal.png",
 }) {
   return (
     <Head>

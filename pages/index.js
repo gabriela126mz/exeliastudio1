@@ -111,7 +111,7 @@ export default function HomePage() {
             <p>Logotipos, tarjetas, marcas, diseños en 3D. Le damos forma a tu esencia.</p>
           </div>
           <div className="card">
-            <h3>🧠 Formación y mentoría</h3>
+            <h3>🧠 Formación y mentoría de marketing digital</h3>
             <p>Te damos herramientas para que entiendas, crezcas y decidas con confianza a la hora de exponer tu idea en el mercado.</p>
           </div>
           <div className="card">

@@ -1,22 +1,24 @@
+
 import Head from 'next/head';
 import styles from '../styles/services.module.css';
 import MetaTags from "../components/MetaTags";
 
-export default function Services() {
 
-  <Head>
-    <MetaTags />
-    <title>Exelia Studio | Agencia Boutique Digital</title>
-    <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://www.exeliastudio.com/Services" />
-    <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
-    <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
-    <meta property="og:url" content="https://www.exeliastudio.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
-    <link rel="icon" href="/favicon.ico" />
-  </Head>
+export default function Services() {
+      
+      <Head>
+        <MetaTags />
+        <title>Exelia Studio | Agencia Boutique Digital</title>
+        <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.exeliastudio.com/Services" />
+        <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
+        <meta property="og:description" content="Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <meta property="og:url" content="https://www.exeliastudio.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
   const services = [
     {
@@ -33,14 +35,13 @@ export default function Services() {
       phone: "34692209204"
     },
     {
-      title: "Creación de Videos y Anuncios",
+      title: "Creación de videos y anuncios",
       includes: [
         "Gestión de campañas Meta Ads , Google Ads,  Tik Tok Ads, Youtube Ads",
         "Informes semanales de rendimiento publicitarios",
         "Diseño de anuncios publicitarios",
       ],
-      oldPrice: "249,99€",
-      price: "199,99€",
+      price: "249,99€",
       message: "Hola Exelia, quiero más información sobre el servicio de Creación de videos y anuncios."
     },
     {
@@ -66,14 +67,14 @@ export default function Services() {
       message: "Hola Exelia, quiero saber más sobre el servicio de Identidad visual."
     },
     {
-      title: "Mentoría de Marketing Digital",
+      title: "Formación y Mentoría de Marketing Digital",
       includes: [
         "Diagnóstico comercial inicial",
         "Capacitación en técnicas de venta dinámica",
         "Revisión y mejora de procesos",
         "Soporte por WhatsApp",
       ],
-      price: "279,99€",
+      price: "349,99€",
       message: "Hola Exelia, me interesa la Formación y Mentoría. ¿Podemos hablar?"
     },
     {
@@ -83,8 +84,7 @@ export default function Services() {
         "Revisión de procesos actuales",
         "Recomendaciones tecnológicas",
       ],
-      oldPrice: "99,99€",
-      price:"45,99€",
+      price: "99,99€",
       message: "Hola Exelia, quisiera más info sobre Consultoría digital. ¡Gracias!"
     },
   ];
@@ -101,42 +101,16 @@ export default function Services() {
 
       <section className={styles.servicesSection}>
         <h2 className={styles.servicesTitle}>Nuestros Servicios</h2>
-
         <div className={styles.servicesGrid}>
           {services.map((service, index) => (
-            <div
-              className={`${styles.serviceCard} ${service.oldPrice ? styles.serviceCardPromo : ""}`}
-              key={index}
-            >
+            <div className={styles.serviceCard} key={index}>
               <h3 className={styles.serviceTitle}>{service.title}</h3>
-
               <ul className={styles.serviceIncludes}>
                 {service.includes.map((item, i) => (
                   <li key={i}>✔ {item}</li>
                 ))}
               </ul>
-
-              {/* Bloque de precios */}
-              {service.oldPrice ? (
-                <>
-                  <span className={styles.promoBadge}>PROMO ESPECIAL</span>
-
-                  <p className={styles.serviceOldPrice}>
-                    Antes: <span>{service.oldPrice}</span>
-                  </p>
-
-                  <p className={styles.servicePricePromo}>
-                    Ahora: <strong>{service.price}</strong>
-                  </p>
-
-                  <p className={styles.servicePromoNote}>
-                    Precio por tiempo limitado
-                  </p>
-                </>
-              ) : (
-                <p className={styles.servicePrice}>Desde: {service.price}</p>
-              )}
-
+              <p className={styles.servicePrice}>Desde: {service.price}</p>
               <a
                 className={styles.serviceButton}
                 href={`https://wa.me/${service.phone || "34610197239"}?text=${encodeURIComponent(service.message)}`}
@@ -147,17 +121,18 @@ export default function Services() {
               </a>
             </div>
           ))}
+          
         </div>
 
         <a
-          href="https://wa.me/34610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
-          className="whatsapp-float"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="WhatsApp"
-        >
-          <img src="/wasap.png" alt="WhatsApp" />
-        </a>
+        href="https://wa.me/34610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+      >
+      <img src="/wasap.png" alt="WhatsApp" />
+      </a>
 
       </section>
     </>

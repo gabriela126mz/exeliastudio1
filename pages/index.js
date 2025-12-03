@@ -103,19 +103,19 @@ export default function HomePage() {
             <p>Landing pages, webs profesionales, código QR ,automatización por WhatsApp para que tu marca trabaje sola.</p>
           </div>
           <div className="card">
-            <h3>🎥 Contenido profesional y emocional</h3>
+            <h3>🎥 Contenido Profesional y Emocional</h3>
             <p>Reels, videos, fotos y piezas gráficas para crear tu contenido y formar tu comunidad.</p>
           </div>
           <div className="card">
-            <h3>🎨 Identidad visual </h3>
+            <h3>🎨 Identidad Visual </h3>
             <p>Logotipos, tarjetas, marcas, diseños en 3D. Le damos forma a tu esencia.</p>
           </div>
           <div className="card">
-            <h3>🧠 Formación y mentoría de marketing digital</h3>
-            <p>Te damos herramientas para que entiendas, crezcas y decidas con confianza a la hora de exponer tu idea en el mercado ya sea por negocio,talento o influencer.</p>
+            <h3>🧠 Mentoría de Marketing Digital</h3>
+            <p>Proporcionamos herramientas para que entiendas, crezcas y decidas con confianza a la hora de exponer tu idea en el mercado.</p>
           </div>
           <div className="card">
-            <h3>🛠️ Mantenimiento digital</h3>
+            <h3>🛠️ Mantenimiento Digital</h3>
             <p>Actualizamos y damos soporte continuo a tus redes sociales para mayor efectivadad.</p>
           </div>
         </div>

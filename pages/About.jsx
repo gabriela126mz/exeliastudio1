@@ -34,7 +34,7 @@ export default function About() {
         <p className={styles.aboutDescription}>
           <b>Nuestra visión:</b>
           <br />
-          Empoderar a emprendedores, negocios minoristas, centros de salud, franquicias y marcas personales para que:
+          Empoderar a emprendedores, negocios minoristas, artistas, franquicias y marcas personales para que:
           <br />
           🔹 Aumenten sus ventas con procesos más inteligentes.
           <br />
@@ -50,7 +50,7 @@ export default function About() {
         <p className={styles.aboutDescription}>
           <b>¿Por qué trabajar con un partner digital?</b>
           <br />
-          Porque no vendemos servicios sueltos: construimos contigo estrategias completas que funcionan.
+              Construimos contigo estrategias completas que funcionan.
           <br />
           🔹 Creamos tu presencia digital desde cero: web, identidad, contenido y automatización.
           <br />

@@ -30,8 +30,9 @@ export default function Services() {
         "Formulario de contacto funcional",
         "Dominio y hosting",
       ],
-      price: "600€",
-      message: "Hola Exelia, estoy interesado/a en el servicio de Webs y Automatización. ¿Podrías contarme más?"
+      price: "599,99€",
+      message: "Hola Exelia, estoy interesado/a en el servicio de Webs y Automatización. ¿Podrías contarme más?",
+      phone: "34692209204"
     },
     {
       title: "Creación de videos y anuncios",
@@ -40,7 +41,7 @@ export default function Services() {
         "Informes semanales de rendimiento publicitarios",
         "Diseño de anuncios publicitarios",
       ],
-      price: "250€",
+      price: "249,99€",
       message: "Hola Exelia, quiero más información sobre el servicio de Creación de videos y anuncios."
     },
     {
@@ -51,7 +52,7 @@ export default function Services() {
         "Adaptaciones por formato (stories, carruseles, reels)",
         "Creación de Reels, videos, fotos y piezas gráficas",
       ],
-      price: "300€",
+      price: "299,99€",
       message: "Hola Exelia, me interesa el servicio de Contenido profesional. ¿Me das más detalles?"
     },
     {
@@ -62,7 +63,7 @@ export default function Services() {
         "Diseño de tarjetas digitales",
         "Plantillas gráficas base para redes o presentaciones"
       ],
-      price: "250€",
+      price: "249,99€",
       message: "Hola Exelia, quiero saber más sobre el servicio de Identidad visual."
     },
     {
@@ -73,7 +74,7 @@ export default function Services() {
         "Revisión y mejora de procesos",
         "Soporte por WhatsApp",
       ],
-      price: "350€",
+      price: "349,99€",
       message: "Hola Exelia, me interesa la Formación y Mentoría. ¿Podemos hablar?"
     },
     {
@@ -83,7 +84,7 @@ export default function Services() {
         "Revisión de procesos actuales",
         "Recomendaciones tecnológicas",
       ],
-      price: "99€",
+      price: "99,99€",
       message: "Hola Exelia, quisiera más info sobre Consultoría digital. ¡Gracias!"
     },
   ];
@@ -112,7 +113,7 @@ export default function Services() {
               <p className={styles.servicePrice}>Desde: {service.price}</p>
               <a
                 className={styles.serviceButton}
-                href={`https://wa.me/34610197239?text=${encodeURIComponent(service.message)}`}
+                href={`https://wa.me/${service.phone || "34610197239"}?text=${encodeURIComponent(service.message)}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -120,7 +121,19 @@ export default function Services() {
               </a>
             </div>
           ))}
+          
         </div>
+
+        <a
+        href="https://wa.me/34610197239?text=Hola Exelia!%20Quiero%20trabajar%20contigo%20"
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp"
+      >
+      <img src="/wasap.png" alt="WhatsApp" />
+      </a>
+
       </section>
     </>
   );

@@ -6,12 +6,12 @@ export default function HomePage() {
     <>
       <MetaTags />
       <Head>
-        <title>Exelia Studio | Agencia Boutique Digital</title>
-        <meta name="description" content="Exelia es tu agencia boutique de marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
+        <title>Exelia Studio | Agencia de Marketing Digital</title>
+        <meta name="description" content="Exelia es tu agencia de Marketing digital. Creamos campañas, automatizamos ventas y potenciamos marcas desde Madrid para el mundo." />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.exeliastudio.com/" />
-        <meta property="og:title" content="Exelia Studio | Agencia Boutique Digital" />
-        <meta property="og:description" content="Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia boutique desde Madrid para el mundo." />
+        <meta property="og:title" content="Exelia Studio | Agencia de Marketing Digital" />
+        <meta property="og:description" content="Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia desde Madrid para el mundo." />
         <meta property="og:url" content="https://www.exeliastudio.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.exeliastudio.com/fondo.png" />

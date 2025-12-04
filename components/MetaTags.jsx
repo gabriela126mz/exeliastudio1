@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function MetaTags({
   title = "Exelia Studio | Agencia de Marketing Digital",
-  description = "Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia boutique desde Madrid para el mundo.",
+  description = "Creamos campañas efectivas, automatizamos ventas y diseñamos experiencias digitales que convierten. Agencia desde Madrid para el mundo.",
   url = "https://www.exeliastudio.com/",
   image = "https://www.exeliastudio.com/logoshare.png",
 }) {
